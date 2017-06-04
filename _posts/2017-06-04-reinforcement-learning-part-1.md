@@ -66,7 +66,7 @@ This cycle goes on for a number of time steps.
 
 ## Information State (Markov State)	
 
-A state $S_t$ is Markov iff 
+A state $$S_t$$ is Markov iff 
 $$P[S_{t+1}] = P[S_{t+1}|S_1,S_2,...,S_t]$$ 
 
 This means that the future state is only dependent on the present state and nothing else. The states $$S_1,S_2,...S_{t-1}$$ are useless for the inference of the next state.

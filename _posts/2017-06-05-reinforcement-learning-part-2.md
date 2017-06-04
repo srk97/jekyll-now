@@ -46,7 +46,7 @@ This is a Markov chain with values.
 
 It is a tuple (S,P,R,$$\Gamma$$)
 
-- R is a reward function $$R_s = E[R_{t+1}|S_t=s]$$
+- R is a reward function $$R_s=E[R_{t+1}|S_t=s]$$
 
 - $$\Gamma$$ is a discount factor that lies in [0,1].
 

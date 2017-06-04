@@ -98,7 +98,8 @@ This is a Partially Observable Markov Decision Process.
 - ## Policy
 	It is a mapping from state to action
 	- Deterministic policy: $$a = \Pi(s)$$
-	- Stochastic policy: $$ \Pi (a|s) = P[A_t=a|S_t=s] $$
+	- Stochastic policy: 
+	$$\Pi(a|s) = P[A_t=a|S_t=s]$$
 
 	Deterministic vs Stochastic Models
 

@@ -8,8 +8,10 @@ I am a CS undergrad at Manipal Institute of Technology. I am a member of [Projec
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Feel free to reach out to me regarding Deep learning,Computer science or music. I'd love to discuss and learn more!
 
 ### Contact me
 
-[email@domain.com](mailto:srk97c@gmail.com)
+[Email](mailto:srk97c@gmail.com)
+
+Find the links to my social profiles at the footer 

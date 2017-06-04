@@ -57,19 +57,19 @@ This cycle goes on for a number of time steps.
 
 - **Environment State**
 	
-	$S_t^e$ is the environment's private representation. This also is the data that the environment uses to emit the next observation and reward.This state may or may not be visible to the agent
+	$$S_t^e$$ is the environment's private representation. This also is the data that the environment uses to emit the next observation and reward.This state may or may not be visible to the agent
 
 - **Agent state**	
 	
 	This is the agent's internal representation. It can be any function of the history i.e
-	$S_t^a = f(H_t)$
+	$$S_t^a = f(H_t)$$
 
 ## Information State (Markov State)	
 
 A state $S_t$ is Markov iff 
 $$P[S_{t+1}] = P[S_{t+1}|S_1,S_2,...,S_t]$$ 
 
-This means that the future state is only dependent on the present state and nothing else. The states $S_1,S_2,...S_{t-1}$ are useless for the inference of the next state.
+This means that the future state is only dependent on the present state and nothing else. The states $$S_1,S_2,...S_{t-1}$$ are useless for the inference of the next state.
 
 
 ## Fully observable environments
@@ -85,10 +85,10 @@ This is a Markov Decision Process(MDP)
 The agent has its own state representation.This can be 
 
 - Complete History
-- Beliefs of the environment state $S_t^a = (P[S_t^e=S^1],P[S_t^e=S^2],...,P[S_t^e=S^n])$
-- Recurrent Neural Network $S_t^a = \Sigma(S_{t-1}^aW_s+O_tW_o)$ 
+- Beliefs of the environment state $$S_t^a = (P[S_t^e=S^1],P[S_t^e=S^2],...,P[S_t^e=S^n])$$
+- Recurrent Neural Network $$S_t^a = \Sigma(S_{t-1}^aW_s+O_tW_o)$$ 
 
-$\Sigma$  is the sigmoid function here.
+$$\Sigma$$  is the sigmoid function here.
 
 This is a Partially Observable Markov Decision Process.
 
@@ -97,8 +97,8 @@ This is a Partially Observable Markov Decision Process.
 
 - ## Policy
 	It is a mapping from state to action
-	- Deterministic policy: $a = \Pi(s)$
-	- Stochastic policy: $\Pi(a|s) = P[A_t=a|S_t=s]$
+	- Deterministic policy: $$a = \Pi(s)$$
+	- Stochastic policy: $$\Pi(a|s) = P[A_t=a|S_t=s]$$
 
 	Deterministic vs Stochastic Models
 
@@ -111,7 +111,7 @@ This is a Partially Observable Markov Decision Process.
 Value function is a prediction of future reward given the state. Actions,therefore are taken based on the value function's output.
 $$v_\Pi(s) = E_\Pi[R_{t+1}+\Gamma R_{t+2}+\Gamma^2R_{t+3}+...|S_t=s]$$
 
-$\Gamma$ is the discount here. In lecture-2 notes
+$$\Gamma$$ is the discount here. In lecture-2 notes
 
 
 - ## Model

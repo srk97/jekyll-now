@@ -55,6 +55,6 @@ It is a tuple (S,P,R,$$\Gamma$$)
 
 It is the total discounted reward from time step `t`
 
-$$G_t = R_{t+1}+\GammaR_{t+2}+\cdots = \sum_{k=0}^\infty \Gamma^k R_{t+k+1}$$
+$$G_t = R_{t+1}+\Gamma R_{t+2}+\cdots = \sum_{k=0}^\infty \Gamma^k R_{t+k+1}$$
 
 

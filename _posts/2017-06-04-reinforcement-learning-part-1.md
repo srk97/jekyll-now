@@ -21,7 +21,7 @@ Deep learning mainly is of three types:
 
 	This stack-overflow [answer](https://stackoverflow.com/a/13058903/4989649) explains `i.i.d` data pretty well.	
 
-	"Independent and identically distributed" implies an element in the sequence is independent of the random variables that came before it. In this way, an IID sequence is different from a Markov sequence, where the probability distribution for the $n^{th}$ random variable is a function of the previous random variable in the sequence (for a first order Markov sequence).
+	"Independent and identically distributed" implies an element in the sequence is independent of the random variables that came before it. In this way, an IID sequence is different from a Markov sequence, where the probability distribution for the $$n^{th}$$ random variable is a function of the previous random variable in the sequence (for a first order Markov sequence).
 
 
 - Agent's actions affect the incoming data unlike other forms of learning.
